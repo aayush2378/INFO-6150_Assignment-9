@@ -35,7 +35,6 @@ const LoginPage = () => {
           },
           body: JSON.stringify({ email, password }),
         });
-        console.log(email, password);
         
         if (response.ok) {
           // Handle successful login (e.g., redirect to dashboard)
